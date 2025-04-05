@@ -17,7 +17,7 @@ const Home = () => {
               Hello I&apos;m <br />{" "}
               <span className="text-accent">Shantanu Singh</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-9 text-white/80 p-2">
               I specialize in creating seamless digital experiences and have
               expertise in a wide range of programming languages and
               technologies, including AI, blockchain, and IoT.
