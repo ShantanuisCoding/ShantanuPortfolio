@@ -39,7 +39,7 @@ const Photo = () => {
                 {/* Profile Image */}
                 <div className="relative w-[105%] max-w-[650px] p-4 rounded-full shadow-lg">
                     <Image
-                        src="/assets/photo.png"
+                        src="/assets/photo_main.png"
                         priority
                         quality={100}
                         width={350}
