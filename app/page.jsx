@@ -29,8 +29,14 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <a
+                  href="public\assets\Resume.pdf"
+                  download="Shantanu_Singh_Resume.pdf"
+                  className="uppercase flex items-center gap-2 border px-4 py-2 rounded-lg hover:bg-gray-100 transition"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
 
               {/* Social Icons Wrapper - Fixed Alignment */}
