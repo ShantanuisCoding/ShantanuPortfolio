@@ -16,7 +16,7 @@ const projects = [
     title: "Search Engine using GoLang",
     description: "A fast and efficient search engine built using GoLang with optimized search algorithms.",
     stack: [{ name: "GoLang" }, { name: "Search Algorithms" }, { name: "Backend" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/Search_Engine.jpeg", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Search-Engine",
     live: ""
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "DDoS Protection System for Cloud",
     description: "An intelligent system to detect and mitigate DDoS attacks on cloud platforms.",
     stack: [{ name: "Cybersecurity" }, { name: "AI" }, { name: "Cloud Security" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/DDOS.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/DDoS-Protection-System-for-Cloud",
     live: ""
   },
@@ -37,7 +37,7 @@ const projects = [
     title: "My Portfolio",
     description: "A personal portfolio showcasing projects, skills, and achievements.",
     stack: [{ name: "React" }, { name: "Tailwinnd CSS" }, { name: "Next.js" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/portfolio.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Search-Engine",
     live: ""
   },
@@ -48,7 +48,7 @@ const projects = [
     title: "EDMRS (Emotion Detection Music Recommendation System)",
     description: "An AI-based music recommendation system that detects emotions and suggests songs accordingly.",
     stack: [{ name: "AI" }, { name: "Python" }, { name: "Machine Learning" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/EDMRS.jpg", // Add image URL here
     github: "https://github.com/ShantanuisCoding/EDMRS"
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     title: "Video Translator",
     description: "An AI-powered video translation tool that translates speech and subtitles in real time.",
     stack: [{ name: "AI" }, { name: "Deep Learning" }, { name: "NLP" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/Translate.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Video-Translator"
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     title: "Voice Cloner",
     description: "A deep learning-based system for cloning voices with high accuracy and realism.",
     stack: [{ name: "Deep Learning" }, { name: "AI" }, { name: "Speech Processing" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/VoiceCloner.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Voice-Cloner"
   },
   {
@@ -75,7 +75,7 @@ const projects = [
     title: "Sudoku Solver",
     description: "An AI-powered Sudoku solver that provides instant solutions using backtracking algorithms.",
     stack: [{ name: "AI" }, { name: "Python" }, { name: "Algorithms" }],
-    image: "/assets/work/thumb3.png", // Add image URL here
+    image: "/assets/Sudoku.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Sudoku-Solver"
   },
 ]
@@ -143,7 +143,7 @@ const Projects = () => {
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
 
                     <div className="relative w-full h-full">
-                      <Image src={project.image} fill className="object-cover" alt="" />
+                      <Image src={project.image} fill className="object-cover" alt=" Not Available " />
                     </div>
                   </div>
                 </SwiperSlide>
