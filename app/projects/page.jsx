@@ -39,7 +39,7 @@ const projects = [
     stack: [{ name: "React" }, { name: "Tailwinnd CSS" }, { name: "Next.js" }],
     image: "/assets/portfolio.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Search-Engine",
-    live: ""
+    live: "https://shantanu-portfolio-five.vercel.app/"
   },
 
   {
@@ -68,15 +68,6 @@ const projects = [
     stack: [{ name: "Deep Learning" }, { name: "AI" }, { name: "Speech Processing" }],
     image: "/assets/VoiceCloner.png", // Add image URL here
     github: "https://github.com/ShantanuisCoding/Voice-Cloner"
-  },
-  {
-    num: '07',
-    category: 'GAME',
-    title: "Sudoku Solver",
-    description: "An AI-powered Sudoku solver that provides instant solutions using backtracking algorithms.",
-    stack: [{ name: "AI" }, { name: "Python" }, { name: "Algorithms" }],
-    image: "/assets/Sudoku.png", // Add image URL here
-    github: "https://github.com/ShantanuisCoding/Sudoku-Solver"
   },
 ]
 
