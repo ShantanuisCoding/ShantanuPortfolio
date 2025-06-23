@@ -19,7 +19,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "About Me",
   description:
-    "AI & Blockchain Developer with expertise in IoT and Full-Stack Development. Passionate about building intelligent, scalable, and impactful tech solutions.",
+    "I am a Passionate and Dedicated Computer Science Student with a strong interest in Full Stack Development, AI, and Blockchain. I have a solid foundation in programming languages such as C++, Java, Python, and JavaScript. I am always eager to learn new technologies and improve my skills.",
   info: [
     { fieldName: "Name", fieldValue: "Shantanu Singh" },
     { fieldName: "Phone", fieldValue: "+91 7817874878" },
@@ -27,13 +27,12 @@ const about = {
     { fieldName: "Email", fieldValue: "sshantanu781@gmail.com" },
     { fieldName: "Languages", fieldValue: "English" },
     { fieldName: "Freelance", fieldValue: "Available" },
-    { fieldName: "Education", fieldValue: "Pursuing B.Tech (CSE)" },
+    { fieldName: "Education", fieldValue: "Final year Student in Chandigarh University" },
     { fieldName: "Tech Stack", fieldValue: "C++, Java, Python, JavaScript, AI, Blockchain" },
   ],
   socialLinks: [
     { name: "GitHub", url: "https://github.com/ShantanuisCoding", icon: <FaGithub size={22} /> },
-    { name: "LinkedIn", url: "www.linkedin.com/in/shantanu-singh-8a3a78275", icon: <FaLinkedin size={22} /> },
-    { name: "Portfolio", url: "https://shantanu.dev", icon: <FaGlobe size={22} /> },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/shaaantaaanu/", icon: <FaLinkedin size={22} /> }
   ],
 };
 
@@ -43,13 +42,13 @@ const education = {
   description: "Education background and achievements.",
   items: [
     { institution: "Chandigarh University", degree: "BE - Computer Science Engineering", year: "2022-Present" },
-    { institution: "Dr. MPS World School", degree: "Intermediate (71.4%)", year: "2022" },
+    { institution: "MS. Public School", degree: "Intermediate (71.4%)", year: "2022" },
     { institution: "Dr. MPS World School", degree: "Matriculation (70.8%)", year: "2020" },
   ],
   coCurricular: {
     title: "Co-Curricular Activities & Achievements",
     items: [
-      "Solved 50+ LeetCode problems on Data Structures & Algorithms.",
+      "Solved 250+ LeetCode problems on Data Structures & Algorithms.",
       "Hackathons Participated: Codex Ninja Hackathon, HashHacks 6.0, DevRev Forge, HackFest’24.",
     ],
   },
@@ -61,7 +60,7 @@ const education = {
       "Introduction to Web3",
       "Advanced DBMS",
       "Java Certification",
-      "IoT Architecture",
+      "Blockchain Development",
       "Entrepreneurship Certification",
     ],
   },
@@ -70,7 +69,7 @@ const education = {
 // Skills Data
 const skills = {
   title: "My Skills",
-  description: "Passionate about AI, Blockchain, IoT, and Full-Stack Development.",
+  description: "Passionate about Web3 and Full-Stack Development.",
   categories: {
     "Programming Languages": [
       { icon: () => <FaPython />, name: "Python" },
