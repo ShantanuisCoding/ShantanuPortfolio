@@ -30,7 +30,7 @@ const Home = () => {
                 className="uppercase flex items-center gap-2"
               >
                 <a
-                  href="/assets/Resume.pdf"
+                  href="/assets/Shantanu_22BCS15563_Resume.pdf"
                   download="Shantanu_Singh_Resume.pdf"
                   className="uppercase flex items-center gap-2 px-4 py-2 rounded-lg transition"
                 >
